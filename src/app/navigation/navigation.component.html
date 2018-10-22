@@ -1,0 +1,11 @@
+<h3 class="title-header">Project Scarlett</h3>
+<div class="main">
+    <div></div>
+    <nav>
+        <div class="navDiv">
+            <span class="btn-nav" [routerLink]="['homepage']" [ngClass]="{'activated' : currentUrl == '/navigation/home'}">Home</span>
+            <span class="btn-nav" [routerLink]="['aboutus']" [ngClass]="{'activated' : currentUrl == '/navigation/aboutus'}">About Us</span>
+        </div>   
+    </nav>    
+  <router-outlet></router-outlet>
+</div>

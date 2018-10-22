@@ -1,0 +1,40 @@
+h3.title-header {
+  background: #2D2E2E;
+  color: #fff;
+  padding: 10px;
+  margin: 0px;  
+  font-size: 40px;
+}
+div{
+  nav {
+    background: #2D2E2E;
+        div.navDiv {
+            span {
+                cursor: pointer;
+                font-size: 20px;
+                text-align: center;
+                color: #fff;
+                padding: 10px;            
+            }
+            :hover{
+            color: gray;
+            }  
+            .activated {
+            background: #00a8ff;
+            }
+        }
+  } 
+}
+$fa-font-path : '../../node_modules/font-awesome/fonts';
+$colors: (
+  dark: #050505,
+  light: #fafafa,
+  gray: #e6e6e6,
+  light-shadow: #ccc,
+  dark-shadow: #555,
+);
+.main {
+  height: 100%;
+  background-color: map-get($colors, light);
+  color: map-get($colors, dark);
+}
